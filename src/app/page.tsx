@@ -1,95 +1,65 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+"use client";
+import Navbar from "./navbar";
+import Hero from "./heroSection";
+import ToggleColorMode from "./darkmode";
+import About from "./about";
+
+import { Typography } from "@mui/material";
+import { Slider } from "@/component/slider";
+import Work from "@/component/work";
+import Road from "@/component/roadmap";
+import Team from "@/component/team";
+import Join from "@/component/join";
+import Faq from "@/component/faq";
+import Footer from "@/component/footer";
+import Partnercard from "@/component/partnercard";
+import Partner from "@/component/partner";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Slider />
+      <About />
+      <Work />
+      <Road />
+      <Team />
+      <Partner />
+      <Join />
+      <Faq />
+      <Footer />
+      {/* page 2 */}
+      {/* <Collection />
+      <Item />
+      <Box>
+        <Subjoin />
+        <Subfooter />
+      </Box> */}
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+      {/* page 3 */}
+      {/* <Itemdetails />
+      <Nftdetails />
+      <Box>
+        <Typography
+          sx={{
+            // fontSize: "44px",
+            fontSize: { xs: "25px", sm: "25px", md: "44px" },
+            fontWeight: "400",
+            lineHeight: "55px",
+            color: "secondary.main",
+            textAlign: "center",
+          }}
         >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+          EXPLORE COLECTIONS
+        </Typography>
+        <Slider />
+      </Box>
+      <Subjoin />
+      <Subfooter /> */}
+    </>
+  );
+}
+{
+  /* <ToggleColorMode /> */
 }
