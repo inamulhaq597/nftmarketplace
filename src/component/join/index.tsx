@@ -25,7 +25,7 @@ const Join = () => {
                 fontSize: "15px",
                 fontWeight: "400",
                 lineHeight: "28px",
-                color: "third.main",
+                color: "info.main",
               }}
             >
               Lorem Ipsum is simply dummy text of the printing and typesetting

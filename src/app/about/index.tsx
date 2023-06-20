@@ -54,7 +54,7 @@ const About = () => {
                 fontSize: { xs: "15px", sm: "15px", md: "18px" },
                 fontWeight: "400",
                 lineHeight: "28px",
-                color: "third.main",
+                color: "info.main",
                 textAlign: { xs: "justify", sm: "justify", md: "center" },
                 display: "flex",
               }}

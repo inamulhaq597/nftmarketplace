@@ -52,7 +52,7 @@ export default function Faq() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography sx={{ color: "third.main" }}>
+            <Typography sx={{ color: "info.main" }}>
               Nulla facilisi. Phasellus sollicitudin nulla et quam mattis
               feugiat. Aliquam eget maximus est, id dignissim quam.
             </Typography>
@@ -91,7 +91,7 @@ export default function Faq() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography sx={{ color: "third.main" }}>
+            <Typography sx={{ color: "info.main" }}>
               Nulla facilisi. Phasellus sollicitudin nulla et quam mattis
               feugiat. Aliquam eget maximus est, id dignissim quam.
             </Typography>
@@ -130,7 +130,7 @@ export default function Faq() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography sx={{ color: "third.main" }}>
+            <Typography sx={{ color: "info.main" }}>
               Nulla facilisi. Phasellus sollicitudin nulla et quam mattis
               feugiat. Aliquam eget maximus est, id dignissim quam.
             </Typography>
@@ -169,7 +169,7 @@ export default function Faq() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography sx={{ color: "third.main" }}>
+            <Typography sx={{ color: "info.main" }}>
               Nulla facilisi. Phasellus sollicitudin nulla et quam mattis
               feugiat. Aliquam eget maximus est, id dignissim quam.
             </Typography>

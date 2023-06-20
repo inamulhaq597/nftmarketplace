@@ -66,7 +66,7 @@ const Aboutcard = ({ headline, backHeadline, description }: Props) => {
                 fontSize: "18px",
                 fontWeight: "400",
                 lineHeight: "28px",
-                color: "third.main",
+                color: "info.main",
               }}
             >
               {description}

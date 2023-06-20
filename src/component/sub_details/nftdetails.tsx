@@ -39,7 +39,7 @@ const Nftdetails = () => {
                       fontWeight: "400",
                       fontSize: "20px",
                       lineHeight: "30px",
-                      color: "third.main",
+                      color: "info.main",
                       fontFamily: "Poppins",
                       textAlign: "justify",
                       marginBottom: "20px",
@@ -73,7 +73,7 @@ const Nftdetails = () => {
                           fontWeight: "400",
                           fontSize: "16px",
                           lineHeight: "26px",
-                          color: "third.main",
+                          color: "info.main",
                         }}
                       >
                         Clothing
@@ -103,7 +103,7 @@ const Nftdetails = () => {
                           fontWeight: "400",
                           fontSize: "16px",
                           lineHeight: "26px",
-                          color: "third.main",
+                          color: "info.main",
                         }}
                       >
                         Eyes
@@ -133,7 +133,7 @@ const Nftdetails = () => {
                           fontWeight: "400",
                           fontSize: "16px",
                           lineHeight: "26px",
-                          color: "third.main",
+                          color: "info.main",
                         }}
                       >
                         Eyes
@@ -172,7 +172,7 @@ const Nftdetails = () => {
                           fontWeight: "400",
                           fontSize: "16px",
                           lineHeight: "26px",
-                          color: "third.main",
+                          color: "info.main",
                         }}
                       >
                         Clothing
@@ -202,7 +202,7 @@ const Nftdetails = () => {
                           fontWeight: "400",
                           fontSize: "16px",
                           lineHeight: "26px",
-                          color: "third.main",
+                          color: "info.main",
                         }}
                       >
                         Eyes
@@ -232,7 +232,7 @@ const Nftdetails = () => {
                           fontWeight: "400",
                           fontSize: "16px",
                           lineHeight: "26px",
-                          color: "third.main",
+                          color: "info.main",
                         }}
                       >
                         Eyes
@@ -313,7 +313,7 @@ const Nftdetails = () => {
                         fontWeight: "400",
                         lineHeight: "24px",
                         color: "#fff",
-                        borderColor: "third.main",
+                        borderColor: "info.main",
                       }}
                       variant="outlined"
                     >
@@ -329,7 +329,7 @@ const Nftdetails = () => {
                         fontWeight: "400",
                         lineHeight: "24px",
                         color: "#fff",
-                        borderColor: "third.main",
+                        borderColor: "info.main",
                       }}
                       variant="outlined"
                     >

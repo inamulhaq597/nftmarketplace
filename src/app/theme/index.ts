@@ -16,8 +16,6 @@ export const theme = createTheme({
   palette: {
     primary: { main: "#21E786" },
     secondary: { main: "#FFFFFF" },
-    third: { main: "#C2C3C5" },
-    forth: { main: "#888B8E" },
   },
   components: {
     MuiButton: {

@@ -38,7 +38,7 @@ const Teamcard = ({ headline, img, description }: Props) => {
               fontSize: "18",
               fontWeight: "400",
               lineHeight: "28px",
-              color: "third.main",
+              color: "info.main",
               marginBottom: "10px",
             }}
           >

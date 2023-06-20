@@ -88,7 +88,7 @@ const Hero = () => {
                   fontSize: "12px",
                   fontWeight: "400",
                   lineHeight: "26px",
-                  color: "third.main",
+                  color: "info.main",
                   textAlign: { xs: "center", sm: "center", md: "left" },
                 }}
               >
@@ -112,7 +112,7 @@ const Hero = () => {
                   fontSize: "12px",
                   fontWeight: "400",
                   lineHeight: "26px",
-                  color: "third.main",
+                  color: "info.main",
                   textAlign: { xs: "center", sm: "center", md: "left" },
                 }}
               >

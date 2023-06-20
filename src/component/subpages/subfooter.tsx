@@ -279,7 +279,7 @@ const Subfooter = () => {
                 fontSize: "14px",
                 fontWeight: "400",
                 fontFamily: "Poppins",
-                color: "third.main",
+                color: "info.main",
                 textAlign: "center",
                 marginBottom: { xs: "20px", md: "0", lg: "0" },
               }}
