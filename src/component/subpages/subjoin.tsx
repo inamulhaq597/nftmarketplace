@@ -8,7 +8,7 @@ const Subjoin = () => {
     <Box
       sx={{
         py: { xs: "30px", sm: "30px", md: "40px" },
-        paddingX: { xs: "5px", sm: "5px", md: "30px" },
+        paddingX: { xs: "16px", sm: "15px", md: "0px" },
       }}
     >
       <Container
@@ -80,6 +80,7 @@ const Subjoin = () => {
         <Box
           sx={{
             display: "flex",
+            flexDirection: { xs: "column", sm: "column", md: "row" },
             justifyContent: "center",
             gap: "20px",
             marginBottom: "30px",
@@ -103,6 +104,7 @@ const Subjoin = () => {
           <Button
             sx={{
               paddingX: "40px",
+              paddingY: "10px",
               fontSize: "20",
               fontWeight: "400",
               lineHeight: "24px",

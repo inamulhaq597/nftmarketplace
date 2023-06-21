@@ -237,16 +237,21 @@ const Subfooter = () => {
                   fullWidth
                   label="Enter your email"
                   id="fullWidth"
+                  InputLabelProps={{
+                    sx: {
+                      color: "#C2C3C5", 
+                    },
+                  }}
                   sx={{
                     "& .MuiInputBase-input": {
                       height: "52px",
                       padding: "0px 5px 0px 10px",
-                      color: "#C2C3C5",
                       backgroundColor: "#2E343A",
                       marginBottom: { xs: "20px", md: "0", lg: "0" },
                     },
                   }}
                 />
+
                 <Button
                   sx={{
                     fontSize: { xs: "10", md: "16px", lg: "16px" },

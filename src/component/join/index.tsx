@@ -7,7 +7,7 @@ const Join = () => {
   return (
     <>
       <Box sx={{ py: { xs: "30px", sm: "30px", md: "40px" } }}>
-        <Container maxWidth={"sm"} sx={{ padding: "30px" }}>
+        <Container>
           <Box sx={{ textAlign: "center", marginBottom: "30px" }}>
             <Typography
               sx={{
@@ -80,7 +80,8 @@ const Join = () => {
                 backgroundColor: "#141B22",
 
                 borderRadius: "2px",
-                padding: "8px",
+                paddingX: "50px",
+                paddingY: "8px",
                 marginBottom: "20px",
               }}
             >

@@ -509,7 +509,7 @@ const Item = () => {
                 </AccordionDetails>
               </Accordion>
             </Grid>
-            <Grid item xs={12} md={8} lg={8}>
+            <Grid item xs={12} sm={12} md={8} lg={8}>
               <Box
                 sx={{
                   display: { xs: "col", sm: "col", md: "flex" },
@@ -547,7 +547,7 @@ const Item = () => {
 
               {/* pix */}
               <Box>
-                <Grid container columns={12}>
+                <Grid container columns={12} justifyContent={"center"}>
                   {itemData.map((item, ind) => {
                     return (
                       <Grid item xs={12} md={6} lg={4} key={ind}>
@@ -555,20 +555,30 @@ const Item = () => {
                           <Box
                             sx={{
                               padding: " 10px",
+                              gap: "10px",
+                              display: "flex",
                             }}
                           >
                             <Box
                               sx={{
                                 backgroundColor: "#141B22",
-                                padding: "  10px",
+                                width: "100%",
                               }}
                             >
-                              <Box>
-                                <Image
+                              <Box
+                                sx={{
+                                  padding: {
+                                    xs: "15px",
+                                    sm: "15px",
+                                    md: "10px",
+                                  },
+                                }}
+                              >
+                                <img
                                   src={item.img}
                                   alt={""}
-                                  width={280}
-                                  height={280}
+                                  width={"100%"}
+                                  height={"100%"}
                                 />
                               </Box>
                               <Typography
@@ -576,8 +586,13 @@ const Item = () => {
                                   color: "secondary.main",
                                   fontSize: "20px",
                                   fontWeight: "400",
-                                  lineHeight: "28px",
-                                  marginTop: "8px",
+
+                                  padding: {
+                                    xs: "10px",
+                                    sm: "10px",
+                                    md: "10px",
+                                  },
+                                  textAlign: "center",
                                 }}
                               >
                                 {" "}

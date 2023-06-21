@@ -12,13 +12,15 @@ const Aboutcard = ({ headline, backHeadline, description }: Props) => {
   return (
     <>
       <Box
+        className="inner_wrap"
         sx={{
           padding: { xs: "0", sm: "0", md: "20px" },
-
+          // border: "1px solid red",
           backgroundColor: "#141B22",
         }}
       >
-        <Image src={"/borderpix.png"} alt={""} width={70} height={90} />
+        <span className="border_btm" />
+
         <Box sx={{ padding: "20px" }}>
           <Box
             sx={{

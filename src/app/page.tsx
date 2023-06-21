@@ -26,37 +26,10 @@ export default function Home() {
       <Road />
       <Team />
       <Partner />
-      <Join />
       <Faq />
-      <Footer />
-      {/* page 2 */}
-      {/* <Collection />
-      <Item />
-      <Box>
-        <Subjoin />
-        <Subfooter />
-      </Box> */}
+      <Join />
 
-      {/* page 3 */}
-      {/* <Itemdetails />
-      <Nftdetails />
-      <Box>
-        <Typography
-          sx={{
-            // fontSize: "44px",
-            fontSize: { xs: "25px", sm: "25px", md: "44px" },
-            fontWeight: "400",
-            lineHeight: "55px",
-            color: "secondary.main",
-            textAlign: "center",
-          }}
-        >
-          EXPLORE COLECTIONS
-        </Typography>
-        <Slider />
-      </Box>
-      <Subjoin />
-      <Subfooter /> */}
+      <Footer />
     </>
   );
 }

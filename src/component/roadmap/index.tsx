@@ -6,7 +6,7 @@ const Road = () => {
   return (
     <>
       <Box>
-        <Container>
+        <Container >
           <Box>
             <Typography
               sx={{
@@ -23,7 +23,7 @@ const Road = () => {
           </Box>
           <Box
             sx={{
-              padding: ["6px", "48px 42px"],
+              // padding: ["6px", "48px 42px"],
               borderRadius: "6px",
               overflowX: "hidden",
               width: "100%",
