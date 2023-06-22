@@ -11,17 +11,17 @@ interface Props {
 const Aboutcard = ({ headline, backHeadline, description }: Props) => {
   return (
     <>
+      {/*  className="inner_wrap" */}
       <Box
-        className="inner_wrap"
         sx={{
           padding: { xs: "0", sm: "0", md: "20px" },
           // border: "1px solid red",
           backgroundColor: "#141B22",
         }}
       >
-        <span className="border_btm" />
+        {/* <span className="border_btm" /> */}
 
-        <Box sx={{ padding: "20px" }}>
+        <Box sx={{ padding: "38px" }}>
           <Box
             sx={{
               position: "relative",
@@ -34,7 +34,6 @@ const Aboutcard = ({ headline, backHeadline, description }: Props) => {
                 fontWeight: "400",
                 lineHeight: "96px",
                 color: "primary.main",
-
                 textTransform: "capitalize,",
                 opacity: "0.5",
                 position: "absolute",

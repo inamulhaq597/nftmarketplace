@@ -1,4 +1,4 @@
-import { Typography, Box } from "@mui/material";
+import { Typography, Box, Link } from "@mui/material";
 import React from "react";
 
 const Itemdetails = () => {
@@ -42,7 +42,18 @@ const Itemdetails = () => {
               borderColor: "#888B8E",
             }}
           >
-            <Typography sx={{ color: "#888B8E" }}>Home</Typography>
+            <Link href="./">
+              <Typography
+                sx={{
+                  color: "#888B8E",
+                  "&:hover": {
+                    color: "#21E786",
+                  },
+                }}
+              >
+                Home
+              </Typography>
+            </Link>
           </Box>
           <Box
             sx={{

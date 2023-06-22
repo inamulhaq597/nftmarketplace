@@ -91,6 +91,7 @@ const Join = () => {
                   style: {
                     color: "#C2C3C5",
                     border: "none",
+                    
                   },
                 }}
               />

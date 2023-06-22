@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Link, Typography } from "@mui/material";
 import React from "react";
 
 const CollectionCard = () => {
@@ -43,7 +43,21 @@ const CollectionCard = () => {
                 borderColor: "#888B8E",
               }}
             >
-              <Typography sx={{ color: "#888B8E" }}>Home</Typography>
+              <Link href="./">
+                <Typography
+                  sx={{
+                    color: "#888B8E",
+                    textDecoration: "none",
+                    "&:hover": {
+                      color: "#21E786",
+
+                      textDecoration: "none",
+                    },
+                  }}
+                >
+                  Home
+                </Typography>
+              </Link>
             </Box>
             <Box
               sx={{

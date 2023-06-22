@@ -111,7 +111,7 @@ const Partner = () => {
 
                   fontWeight: "600",
                   lineHeight: { xs: "30px", md: "50px", lg: "59px" },
-                  mb: "20px",
+                  marginBottom: "20px",
                   color: "primary.main",
                 }}
               >
@@ -133,7 +133,7 @@ const Partner = () => {
             }}
           >
             {partnerData.map((v, i) => (
-              <Grid key={i}>
+              <Grid  key={i}>
                 <Box
                   sx={{
                     display: "flex",
