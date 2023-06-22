@@ -43,7 +43,7 @@ const CollectionCard = () => {
                 borderColor: "#888B8E",
               }}
             >
-              <Link href="./">
+              <Link href="./" style={{ textDecoration: "none" }}>
                 <Typography
                   sx={{
                     color: "#888B8E",
@@ -52,6 +52,7 @@ const CollectionCard = () => {
                       color: "#21E786",
 
                       textDecoration: "none",
+                      
                     },
                   }}
                 >

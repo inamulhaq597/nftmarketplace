@@ -52,7 +52,7 @@ const Teamcard = ({ headline, img, description }: Props) => {
             }}
           >
             <Image src={"/linkdin.svg"} alt={""} width={20} height={20} />
-            <Image src={"/facebook.png"} alt={""} width={20} height={20} />
+            <Image src={"/Facebook.png"} alt={""} width={20} height={20} />
             <Image src={"/Telegram.svg"} alt={""} width={20} height={20} />
             <Image src={"/twter.svg"} alt={""} width={20} height={20} />
           </Box>

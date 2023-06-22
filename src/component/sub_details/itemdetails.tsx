@@ -42,7 +42,7 @@ const Itemdetails = () => {
               borderColor: "#888B8E",
             }}
           >
-            <Link href="./">
+            <Link href="./" style={{ textDecoration: "none" }}>
               <Typography
                 sx={{
                   color: "#888B8E",

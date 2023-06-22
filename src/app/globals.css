@@ -1,11 +1,13 @@
 
 html {
   font-family: var(--font-babak);
+  scroll-behavior: smooth;
 }
 body {
   /* overflow-x: hidden; */
-  background-color: black;
+  background-color: black;  
   font-family: 'Bakbak One', cursive !important; 
+
 }
 /* *{
   border:1px solid red

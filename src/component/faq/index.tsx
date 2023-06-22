@@ -17,7 +17,7 @@ export default function Faq() {
     };
 
   return (
-    <Box sx={{ py: { xs: "30px", sm: "30px", md: "40px" } }}>
+    <Box id={"faq"} sx={{ py: { xs: "30px", sm: "30px", md: "40px" } }}>
       <Container maxWidth={"md"}>
         <Accordion
           sx={{

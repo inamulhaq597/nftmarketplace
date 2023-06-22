@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Typography, Box } from "@mui/material";
+import { Container, Typography, Box, Link } from "@mui/material";
 const Footer = () => {
   return (
     <>
@@ -53,16 +53,19 @@ const Footer = () => {
                 justifyContent: { xs: "center", sm: "center", md: "left" },
               }}
             >
-              <Typography
-                sx={{
-                  color: "#C2C3C5",
-                  fontSize: "14px",
-                  fontWeight: "400",
-                  lineHeight: { xs: "30px", sm: "30px", md: "22px" },
-                }}
-              >
-                Home
-              </Typography>
+              <a href="#hero" style={{ textDecoration: "none" }}>
+                <Typography
+                  sx={{
+                    color: "#C2C3C5",
+                    fontSize: "14px",
+                    fontWeight: "400",
+                    lineHeight: { xs: "30px", sm: "30px", md: "22px" },
+                  }}
+                >
+                  Home
+                </Typography>
+              </a>
+              <a href="#about" style={{ textDecoration: "none" }}>
               <Typography
                 sx={{
                   color: "#C2C3C5",
@@ -72,7 +75,9 @@ const Footer = () => {
                 }}
               >
                 About
-              </Typography>
+                </Typography>
+              </a>
+              <a href="#roadmap" style={{ textDecoration: "none" }}>
               <Typography
                 sx={{
                   color: "#C2C3C5",
@@ -83,6 +88,8 @@ const Footer = () => {
               >
                 Roadmap
               </Typography>
+              </a>
+              <a href="#team" style={{ textDecoration: "none" }}>
               <Typography
                 sx={{
                   color: "#C2C3C5",
@@ -92,7 +99,9 @@ const Footer = () => {
                 }}
               >
                 Our Team
-              </Typography>
+                </Typography>
+              </a>
+              <a href="#faq" style={{ textDecoration: "none" }}>
               <Typography
                 sx={{
                   color: "#C2C3C5",
@@ -102,7 +111,8 @@ const Footer = () => {
                 }}
               >
                 FAQs
-              </Typography>
+                </Typography>
+                </a>
             </Box>
           </Box>
         </Container>

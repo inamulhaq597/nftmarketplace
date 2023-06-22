@@ -18,11 +18,11 @@ const sliderData = [
   },
   {
     headline: "SKISIRS#2",
-    img: "/IMG (4).svg",
+    img: "/IMG (9).svg",
   },
   {
     headline: "SKISIRS#2",
-    img: "/IMG (5).svg",
+    img: "/IMG 6.svg",
   },
   {
     headline: "SKISIRS#2",

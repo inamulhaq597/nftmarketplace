@@ -1,3 +1,4 @@
+import Staps from "@/staps";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
@@ -5,8 +6,8 @@ import React from "react";
 const Road = () => {
   return (
     <>
-      <Box>
-        <Container >
+      <Box id={"roadmap"}>
+        <Container>
           <Box>
             <Typography
               sx={{
@@ -23,21 +24,18 @@ const Road = () => {
           </Box>
           <Box
             sx={{
-              // padding: ["6px", "48px 42px"],
               borderRadius: "6px",
               overflowX: "hidden",
-              // width: "100%",
-              // height: "100%",
               backgroundColor: "#11171D",
             }}
           >
             <Grid container columns={12} alignItems={"center"}>
-              <Grid  item xs={12} md={4} lg={4} padding={"12px"} width="100%" >
+              <Grid item xs={12} md={4} lg={4} padding={"12px"} width="100%">
                 <img src={"IMG (3).svg"} alt={""} width="100%" />
               </Grid>
-              <Grid item xs={12} padding={"10px"}  md={2}>
+              <Grid item xs={12} padding={"10px"} md={2}>
                 <Box>
-                  <Box sx={{ marginBottom:"10px"}}>
+                  <Box sx={{ marginBottom: "10px" }}>
                     <img src={"IMG 6.svg"} alt={""} width="100%" />
                   </Box>
                   <Box>
@@ -163,6 +161,7 @@ const Road = () => {
               </Grid>
             </Grid>
           </Box>
+          {/* <Staps /> */}
         </Container>
       </Box>
     </>

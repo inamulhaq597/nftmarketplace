@@ -32,7 +32,7 @@ const About = () => {
   ];
   return (
     <>
-      <Box sx={{ py: { xs: "30px", sm: "30px", md: "40px" } }}>
+      <Box id={"about"} sx={{ py: { xs: "30px", sm: "30px", md: "40px" } }}>
         <Container>
           <Box sx={{ marginBottom: "60px" }}>
             <Typography

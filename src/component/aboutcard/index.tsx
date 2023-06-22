@@ -12,6 +12,7 @@ const Aboutcard = ({ headline, backHeadline, description }: Props) => {
   return (
     <>
       {/*  className="inner_wrap" */}
+
       <Box
         sx={{
           padding: { xs: "0", sm: "0", md: "20px" },

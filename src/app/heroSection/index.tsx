@@ -6,11 +6,10 @@ const Hero = () => {
   return (
     <>
       <Box
+        id={"hero"}
         sx={{
           backgroundColor: "#040B11",
           backgroundImage: `url(${"/BG_Main.svg"})`,
-          // height: "100vh",
-
           display: "flex",
           backgroundRepeat: "none",
           backgroundSize: "cover",

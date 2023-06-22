@@ -42,7 +42,7 @@ const TeamData = [
 const Team = () => {
   return (
     <>
-      <Box sx={{ py: { xs: "10px", sm: "10px", md: "40px" } }}>
+      <Box id={"team"} sx={{ py: { xs: "10px", sm: "10px", md: "40px" } }}>
         <Container>
           <Box sx={{ marginBottom: "30px", py: "40px" }}>
             <Typography
