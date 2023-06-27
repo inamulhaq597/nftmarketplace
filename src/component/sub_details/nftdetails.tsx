@@ -1,15 +1,16 @@
 import React from "react";
 import { Typography, Box, Container, Grid, Button } from "@mui/material";
 
-const Nftdetails = () => {
+const Nftdetails = ({ selectedItem }: any) => {
   return (
     <>
       <Box sx={{ marginBottom: "80px" }}>
         <Container>
+         
           <Grid alignContent={"center"} spacing={10} container columns={12}>
             <Grid item xs={12} md={6} lg={6}>
               <img
-                src={"/Detailpix.svg"}
+                src={selectedItem.img}
                 alt={""}
                 width={"100%"}
                 height={"100%"}

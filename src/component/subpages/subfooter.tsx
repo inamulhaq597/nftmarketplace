@@ -56,7 +56,6 @@ const Subfooter = () => {
                   sx={{
                     fontSize: "16px",
                     fontWeight: "400",
-
                     lineHeight: "24px",
                     color: "#fff",
                     marginBottom: "10px",
@@ -239,7 +238,7 @@ const Subfooter = () => {
                   id="fullWidth"
                   InputLabelProps={{
                     sx: {
-                      color: "#C2C3C5", 
+                      color: "#C2C3C5",
                     },
                   }}
                   sx={{
