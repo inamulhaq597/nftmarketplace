@@ -22,7 +22,7 @@ const Index = () => {
     console.log(id, "hello");
   }, [id]);
 
-  const selectedItem = itemData.find((item) => item.id === parseInt(id));
+  const selectedItem = id && itemData.find((item) => item.id === parseInt(id));
 
   if (!selectedItem) {
     return <div>Item not found</div>;

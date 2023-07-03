@@ -113,7 +113,7 @@ const Item = () => {
   };
 
   const handleRadioChange = (filterName: string, value: string) => {
-    setSelectedFilters((prevState) => ({
+    setSelectedFilters((prevState: any) => ({
       ...prevState,
       [filterName]: value === prevState[filterName] ? "" : value,
     }));
@@ -121,7 +121,6 @@ const Item = () => {
 
   // const [isButtonVisible, setIsButtonVisible] = useState(true);
 
-  
   const filteredItems = itemData.filter((item) => {
     const hasClothingFilter = selectedFilters.clothing !== "";
     const hasEyeFilter = selectedFilters.eye !== "";
@@ -305,7 +304,6 @@ const Item = () => {
                         handleRadioChange("eye", event.target.value)
                       }
                     >
-                     
                       <FormControlLabel
                         value="yellow"
                         control={<Radio />}
